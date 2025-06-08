@@ -15,7 +15,7 @@ public class TakeWeapon : MonoBehaviour
             Debug.Log("¡Has recogido el arma!");
 
             transform.SetParent(weaponPosition);
-            transform.localPosition = new Vector3(0, 0.05f, 0.15f);
+            transform.localPosition = new Vector3(0.8f, - 1f, 3.14f);
             transform.localRotation = Quaternion.Euler(0, 0, 0);
             GetComponent<Collider>().enabled = false;
 
